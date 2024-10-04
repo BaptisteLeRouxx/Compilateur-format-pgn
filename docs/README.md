@@ -17,7 +17,7 @@ Bienvenue dans le projet de simulateur de parties d'échecs PGN! Ce projet perme
 Pour installer ce projet, vous devez cloner le dépôt à partir du lien fourni, puis installer les dépendances nécessaires. Assurez-vous d'avoir Python installé sur votre machine.
 
 ```bash
-git clone <lien du dépôt>
+git clone https://github.com/baptiste-lrx/Compilateur-format-pgn.git
 pip install -r requirements.txt
 ```
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 Pour utiliser ce projet, exécutez le script principal du projet comme suit:
 ```
-python main.py
+python src/analyse_partie.py examples/example1.pgn
 ```
 
 Le script principal du projet fera les opérations suivantes:
