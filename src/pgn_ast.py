@@ -1,12 +1,12 @@
 """
-Auteur: Mathis & Baptiste LE ROUX
+Auteur: Baptiste LE ROUX
 Date: 07/05/2023
 Projet: Compilateur
-Fichier : pgn_ast
-mathis.le_roux@ensta-bretagne.org
-Contacts: bapt.leroux29@gmail.com
+Fichier : Analyse_partie
+Contacts:
+baptiste.le_roux@ensta-bretagne.org
+bapt.leroux29@gmail.com
 """
-
 """
 Dans ce fichier on définit une classe pour chaque type de noeuds de l'AST en s'appuyant sur le parseur réalisé auparavant.
 Ainsi on créé les noeuds :

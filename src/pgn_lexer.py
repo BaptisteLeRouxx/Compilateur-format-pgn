@@ -1,3 +1,13 @@
+"""
+Auteur: Baptiste LE ROUX
+Date: 07/05/2023
+Projet: Compilateur
+Fichier : Analyse_partie
+Contacts:
+baptiste.le_roux@ensta-bretagne.org
+bapt.leroux29@gmail.com
+"""
+
 import re
 
 class PgnLexer:

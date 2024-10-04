@@ -1,13 +1,14 @@
 """
-Auteur: Mathis & Baptiste LE ROUX
+Auteur: Baptiste LE ROUX
 Date: 07/05/2023
 Projet: Compilateur
 Fichier : Analyse_partie
 Contacts:
-mathis.le_roux@ensta-bretagne.org
+baptiste.le_roux@ensta-bretagne.org
 bapt.leroux29@gmail.com
 """
 
+import os
 import sys
 from pgn_lexer import PgnLexer
 from pgn_parser import PgnParser
@@ -21,9 +22,17 @@ Code principal du projet: renvoie l'analyse lexicale, l'analyse syntaxique et la
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python Analyse_partie.py filename.pgn")
+        print("Usage: python analyse_partie.py filename.pgn")
         sys.exit()
+
     filename = sys.argv[1]
+
+    # Vérifier si le fichier existe
+    if not os.path.exists(filename):
+        print(f"Erreur: Le fichier '{filename}' n'existe pas.")
+        sys.exit(1)
+
+    # Ouvrir et lire le fichier
     with open(filename, 'r') as f:
         content = f.read()
 

@@ -1,10 +1,10 @@
 """
-Auteur: Mathis & Baptiste LE ROUX
+Auteur: Baptiste LE ROUX
 Date: 07/05/2023
 Projet: Compilateur
-Fichier : pgn_interface
+Fichier : Analyse_partie
 Contacts:
-mathis.le_roux@ensta-bretagne.org
+baptiste.le_roux@ensta-bretagne.org
 bapt.leroux29@gmail.com
 """
 
