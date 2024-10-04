@@ -47,7 +47,7 @@ Le projet se compose de plusieurs composants principaux:
 
 Voici le rendu graphique que permet Tkinter et avec lequel vous pourrez jouer la partie .pgn :
 
-![](/img/chessboard.png "Chessboard")
+![](../img/chessboard.png "Chessboard")
 
 ## Conclusion
 
