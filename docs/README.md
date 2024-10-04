@@ -45,6 +45,10 @@ Le projet se compose de plusieurs composants principaux:
 4. pgn_interface.py: Ce fichier contient le code pour l'interface graphique, qui affiche la partie d'échecs et permet de naviguer à travers les coups.
 5. utils.py: Ce fichier contient des fonctions utilitaires pour convertir les mouvements dans le format approprié pour la bibliothèque Chess.
 
+Voici le rendu graphique que permet Tkinter et avec lequel vous pourrez jouer la partie .pgn :
+
+![](/img/chessboard.png "Chessboard")
+
 ## Conclusion
 
 Ce projet a été une excellente occasion d'explorer le fonctionnement interne de l'analyse de texte et de la représentation de données complexes. En travaillant sur ce projet, nous avpns pu approfondir notre compréhension de concepts tels que l'analyse lexicale et syntaxique, la création d'AST, la visite d'AST et la création d'interfaces graphiques en Python. Nous espérons que vous trouverez ce projet utile et instructif!
